@@ -8,5 +8,5 @@ require 'open-uri'
 
 html = open(https://www.craigslist.org/about/sites#US)
 
-doc = Nokogiri::HTML()
+doc = Nokogiri::HTML(open(https://www.craigslist.org/about/sites#US))
 
